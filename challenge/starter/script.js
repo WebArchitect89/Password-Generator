@@ -1,3 +1,11 @@
+// User input variables: 
+var enter;
+var confirmNumber;
+var confirmCharacter;
+var confirmUppercase;
+var confirmLowercase;
+
+
 // Array of special characters to be included in password
 var specialCharacters = [
   '@',
@@ -89,29 +97,14 @@ var upperCasedCharacters = [
 ];
 
 // Function to prompt user for password options
-
-
-
 function getPasswordOptions() {
- 
-  var specialCharacters =   prompt ("Choose a special character");
-  var numericCharacters = prompt ("Choose a number character");
-  var lowerCasedCharacters = prompt ("Choose a lowercase character");
-  var upperCasedCharacters = prompt ("Choose a uppercase character");
-
 
 }
-
-getPasswordOptions();
 
 // Function for getting a random element from an array
 function getRandom(arr) {
-  for(var i=0; i < arr.length; i++ ){
-arr.push = (arr[i])
-  }
 
 }
-getRandom();
 
 // Function to generate password with user input
 function generatePassword() {
